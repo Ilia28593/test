@@ -1,13 +1,12 @@
 spring:
   application:
     name: Beck_Spring_MY_Project
-
   datasource:
     driver-class-name: org.postgresql.Driver
+    driver: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/AKIO
     username: Akiro_93
     password: ThvYgn729183
-
   jpa:
     hibernate:
       ddl-auto: update

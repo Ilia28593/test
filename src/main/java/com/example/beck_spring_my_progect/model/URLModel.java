@@ -15,7 +15,7 @@ import org.springframework.data.relational.core.mapping.Column;
 @NoArgsConstructor
 @Getter
 @Setter
-public class UrlMapping {
+public class URLModel {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
